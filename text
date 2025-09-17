@@ -17,4 +17,10 @@ krna ka apko yah mila ga.
 <code> git revert head~1 </code> common shortcut apko mila ga revert krna ka head ka zaria. ( Basically usko aik commit id chayie, ab chha tum seedhy id da do ya head ka use kr kah commit ke id ko point krva do )
 
 <code> git reset --hard head~1 </code> agr ghalty sa code revert kr dia to usko vapis lana ka shortcut ( same reset ka case ke trah ha ).
-<code>git revert head~3..head</code> aik sa zayad commits ko aik sath revert krna ka Shortcut.
+
+<code>git revert head~3..head</code> aik sa zayad commits ko aik sath revert krna ka Shortcut, Lakin is case man commits By-default bhe 3 create hon gan.
+
+Powerful Shortcut kah hmara commit By-Default aik he create ho chha hm jitna he commits ka code aik sath delete kran👇🏿
+<code>git revert --no-commit head~2..head</code> is case man hmary changings stage area man janya ge.
+<code>git revert --abort</code> agr undo krna ha to isko use kro.
+<code>git revert --continue</code> or agr code ko delete krna ha to isko use kro.
