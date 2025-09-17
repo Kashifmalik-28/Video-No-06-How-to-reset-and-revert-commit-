@@ -1,2 +1,11 @@
 <code> git reset hard 31a936f </code> ( Shortcut jo commit reset krna ha us sa
 pahla vala ke id dany ha )
+
+<code>git reflog</code> Jo commit delete hua usky id mil jaya ge, ab seedha is
+id ko reset man dal dan same procgre.
+
+<code> git reset hard 31a936f </code> Same procgre jasa delete hua usy shortcut
+sa vapis a gaya bus id change ke.
+
+<code>git checkout head~1 </code> is case man hmara HEAD jo aik previous commit
+ha us pr a jaya ga.
