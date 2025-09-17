@@ -9,3 +9,6 @@ sa vapis a gaya bus id change ke.
 
 <code>git checkout head~1 </code> is case man hmara HEAD jo aik previous commit
 ha us pr a jaya ga.
+
+<code>git reset --hard head~2 </code> Sab sa common shortcut commit ko reset
+krna ka apko yah mila ga.
