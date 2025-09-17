@@ -12,3 +12,9 @@ ha us pr a jaya ga.
 
 <code>git reset --hard head~2 </code> Sab sa common shortcut commit ko reset
 krna ka apko yah mila ga.
+
+<code> git revert 31a936f</code> commit ko revert krna ka shortcut ( Lakin Anuarg sir id da kr revert and reset krna prefer krta han ❤️)
+<code> git revert head~1 </code> common shortcut apko mila ga revert krna ka head ka zaria. ( Basically usko aik commit id chayie, ab chha tum seedhy id da do ya head ka use kr kah commit ke id ko point krva do )
+
+<code> git reset --hard head~1 </code> agr ghalty sa code revert kr dia to usko vapis lana ka shortcut ( same reset ka case ke trah ha ).
+<code>git revert head~3..head</code> aik sa zayad commits ko aik sath revert krna ka Shortcut.
